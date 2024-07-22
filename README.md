@@ -1,6 +1,7 @@
 # Projeto Lâmpada Interativa 💡
 
-![image](https://github.com/user-attachments/assets/27b8e937-6b78-4a98-a62c-1af95d1805eb)
+![Imagem do WhatsApp de 2024-07-21 à(s) 22 41 06_7dbe1490](https://github.com/user-attachments/assets/e54622a8-c518-4b1c-a217-63625d148fa1)
+
 
 Este projeto é uma simulação de uma lâmpada que pode ser ligada, desligada e quebrada, oferecendo uma interação divertida e visualmente atraente. Desenvolvido como um desafio proposto pela Escola DNC no curso de Product Management, o projeto utiliza HTML, CSS e JavaScript para criar uma experiência interativa.
 
