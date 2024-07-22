@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lâmpada</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img id="logotipo" src="img/logotipo.png" width="120px">
+            <h1>Lâmpada</h1>
+        </header>
+        <section>
+            <div class="lamp"><br><br>
+                <img id="lampImage" src="img/lampada_off.svg" alt="Lâmpada"><br><br>
+            </div>
+            
+            <div class="controls">
+                <input type="button" value="ON" class="botao" id="liga">
+                <input type="button" value="OFF" class="botao" id="desliga"><br><br>
+            </div>
+            
+            
+            <div class="controls">
+                <input type="color" id="colorPicker" value="#ffff00">
+                <button id="partyMode" onclick="TogglePartyMode()">
+                    <img src="img/party_mode.svg" alt="Modo Festa" class="party-icon">
+
+                </button>
+            </div>
+            
+            
+
+            <!-- Adiciona os elementos de áudio -->
+            <audio id="audioLigar" src="audio/on.wav"></audio>
+            <audio id="audioDesligar" src="audio/on.wav"></audio>
+            <audio id="audioBroken" src="audio/broken.wav"></audio>
+            <audio id="audioParty" src="audio/party.mp3" loop></audio>
+
+        </section>
+        <script src="lampada_script.js"></script> 
+    </body>
+    </html>
